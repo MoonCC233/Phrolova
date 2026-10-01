@@ -381,6 +381,17 @@ function declineCookies() {
           <Icon icon="ph:chat-circle-dots-duotone" /> QQ群 457323277
         </a>
       </div>
+
+      <div class="home-filings">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow" class="home-filing-link">
+          <Icon icon="ph:seal-check-duotone" class="home-filing-icon" aria-hidden="true" />
+          苏ICP备2026062583号-1</a>
+        <span class="home-social-divider">·</span>
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32100102010396" target="_blank" rel="noopener nofollow" class="home-filing-link">
+          <Icon icon="ph:seal-check-duotone" class="home-filing-icon" aria-hidden="true" />
+          苏公网安备32100102010396号
+        </a>
+      </div>
     </div>
 
     <ModalOverlay v-if="showAnnouncement" panel-class="announce-modal" max-width="480px" @close="closeAnnouncement">

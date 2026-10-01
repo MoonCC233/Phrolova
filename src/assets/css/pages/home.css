@@ -74,6 +74,11 @@
 .home-social-text { display: inline-flex; align-items: center; gap: 0.3rem; }
 .home-social-divider { color: var(--line-strong); }
 
+.home-filings { position: relative; z-index: 3; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.5rem; padding: 0 0 0.4rem; font-size: 0.76rem; color: var(--text-faint); }
+.home-filing-link { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--text-faint); text-decoration: none; transition: color 0.2s; }
+.home-filing-link:hover { color: var(--gold); }
+.home-filing-icon { font-size: 1rem; }
+
 /* ── Auth modal (HomePage-specific) ── */
 .auth-modal-overlay { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(4px); animation: homeFadeIn 0.2s ease; }
 .auth-modal { position: relative; width: 100%; max-width: 400px; max-height: 90vh; overflow-y: auto; padding: 2rem 1.8rem; border: 1px solid var(--line-soft); border-radius: 8px; background: var(--shell-bg-deep); animation: homeSlideUp 0.25s ease; }
